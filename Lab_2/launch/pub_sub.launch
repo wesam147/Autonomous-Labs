@@ -1,0 +1,5 @@
+<launch>
+	<node name="publisher" pkg="Lab_2" type="talker.py" />
+	<node name="subscriber" pkg="Lab_2" type="listener.py"
+	output="screen" />
+</launch>
